@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Nothing') {
+        stage('Build') {
             steps {
                 script {
                     echo "Building the C++ file..."
